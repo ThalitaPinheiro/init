@@ -1,0 +1,41 @@
+{
+  "server": {
+    "port": 3000
+  },
+    "logging": {
+      "console": {
+        "level": "debug",
+        "silent": false,
+        "colorize": true,
+        "timestamp": false,
+        "json": false
+      },
+
+      "file": {
+        "level": "info",
+        "silent": false,
+        "colorize": true,
+        "timestamp": true,
+        "filename": "log/",
+        "maxsize": "100000000",
+        "datePattern": "-yyyy-MM-dd.log",
+        "json": false
+      },
+
+      "exception": {
+        "level": "error",
+        "silent": false,
+        "colorize": true,
+        "timestamp": true,
+        "filename": "log/exception",
+        "maxsize": "100000000",
+        "datePattern": "-yyyy-MM-dd.log",
+        "json": true,
+        "humanReadableUnhandledException": true
+      }
+    },
+
+    "mongo": {
+      "connection": "mongodb://localhost/application_test"
+    }
+}

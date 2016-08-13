@@ -1,0 +1,37 @@
+{
+  "name": "project_name",
+  "version": "1.0.0",
+  "description": "project_name",
+  "author": "@ThalitaPinheiro",
+  "homepage": "https://github.com/ThalitaPinheiro/Curriculo",
+  "main": "index.js",
+  "scripts": {
+    "check": "cd node_modules/jshint/bin/ && jshint --reporter ./node_modules/jshint-stylish/index.js test/* lib/*",
+    "test": "cd node_modules/mocha/bin/  && mocha --recursive",
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "async": "~1.5.x",
+    "body-parser": "~1.15.x",
+    "express": "~4.13.x",
+    "moment": "^2.12.0",
+    "mongodb": "~2.1.x",
+    "morgan": "~1.7.x",
+    "nconf": "~0.8.x",
+    "request": "~2.69.x",
+    "tv4": "~1.2.x",
+    "winston": "~2.2.x",
+    "winston-daily-rotate-file": "~1.0.x"
+  },
+  "devDependencies": {
+    "chai": "~3.5.x",
+    "chance": "~1.0.x",
+    "eslint": "~2.3.x",
+    "jshint": "~2.9.x",
+    "jshint-stylish": "~2.0.x",
+    "mocha": "~2.4.x",
+    "nock": "~8.0.x",
+    "rewire": "~2.5.x",
+    "supertest": "~1.2.x"
+  }
+}
