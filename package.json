@@ -18,7 +18,7 @@
     "mongodb": "~2.1.x",
     "morgan": "~1.7.x",
     "nconf": "~0.8.x",
-    "request": "~2.69.x",
+    "request": "~2.87.0",
     "tv4": "~1.2.x",
     "winston": "~2.2.x",
     "winston-daily-rotate-file": "~1.0.x"
